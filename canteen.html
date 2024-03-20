@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="C:\Users\Bina\Desktop\project\css\login.css">
+        <title>Login Form</title>
+       
+    </head>
+    <body>
+<section>
+    <div class="form-box">
+        <div class="form-value">
+            <form action="database.php" method="post"><br><br><br><br><br><br>
+                <p id="text1">Enter Your Register And Password To Access The Panel.</p><br><br>
+               
+                <div class="textbox">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" id="username" placeholder="                                      TeacherID" required>
+                    
+                </div><br>
+               
+                <div class="textbox">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input  type="password" id="password" value="" placeholder="                                     DateOfBirth" required>
+                </div><br><br><br>
+               
+                <button class="login-btn" onclick="login()">Login</button><br><br><br><br>
+            
+                <div class="forget" >
+                    <lable for=""><input type="checkbox">Remember Me : </lable>
+                    <a href="file:///C:/Users/Bina/Desktop/project/forget.html" onclick="forgotPassword()">Forget password</a>                
+                </div>
+                
+        </div>
+    </div>
+    </section>
